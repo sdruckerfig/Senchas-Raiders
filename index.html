@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Sencha's Raiders</title>
+    <style type="text/css">
+
+
+         /**
+         * Example of an initial loading indicator.
+         * It is recommended to keep this as minimal as possible to provide instant feedback
+         * while other resources are still being loaded for the first time
+         */
+        html, body {
+            height: 100%;
+            background-color: black;
+        }
+
+
+
+        #appLoadingIndicator {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            -webkit-animation-name: appLoadingIndicator;
+            -webkit-animation-duration: 0.5s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-direction: linear;
+        }
+
+        #appLoadingIndicator > * {
+            background-color: #FFFFFF;
+            display: inline-block;
+            height: 30px;
+            -webkit-border-radius: 15px;
+            margin: 0 5px;
+            width: 30px;
+            opacity: 0.8;
+        }
+
+        @-webkit-keyframes appLoadingIndicator{
+            0% {
+                opacity: 0.8
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0.8
+            }
+        }
+    </style>
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
+    <script id="microloader" type="text/javascript" src="touch/microloader/development.js"></script>
+</head>
+<body class="cockpitBackground">
+    <div id="appLoadingIndicator">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <div style="display:none" id="instructions">
+      
+      <h1>Greetings, Starfighter!</h1>
+      
+      <p>You have been recruited by the Senchites to defend the frontier against the enemy armada!</p>
+
+      <h1>Take Command of an Advanced Starship</h1>
+      <img src="resources/images/starmapicons/heroship.png" style="float: right; width: 100px; height: 100px">
+      <p>Take your ship, the Joint Airframe Combat Killer (JACKy), and fly a combat air patrol, defending the Senchite starbases from their enemies. Each JACKy is armed with two forward and two aft class-2 photon torpedo launchers. You have a limited supply of photons, so target your enemies carefully. Use the virtual joystick to change directions, pinch to increase/decrease velocity, and don't forget to raise your shields. We'd like our ship back in one piece.</p> 
+
+      <img src="resources/images/spacestation/Space-Station1.png" style="float: right; width: 90px; height: 90px">
+      <h1>Visit your local Starbase</h1>
+      <p>Periodically visit friendly starbases to refuel and re-arm your ship as well as meet your friends for a beer. Remember to drink responsibly.</p>
+
+      <h1>Your Enemies Are Relentless</h1>
+
+      <div class="enemy1ship"></div>
+      <p>The JQueryians always attack in groups. Their torpedoes don't do a lot of damage but their swarming behavior has sent many pilots into "early retirement."</p>
+      <br style="clear:both" />
+      <div class="enemy3ship"></div>
+      <p>The Appcelerates move quickly and have thick armor that requires multiple hits in order to be destroyed.</p>
+      <br style="clear:both" />
+      <div class="enemy2ship"></div>
+      <p>The Androidians are dreadnaught-class ships. Every captain fears taking a hit from their energy-draining torpedoes.</p>
+      <br style="clear:both" />
+      <p></p>
+      <h1>Protect the Galaxy</h1>
+      <p>Plot a course to enemy sectors by tapping on the galactic map. Then engage your warp drive to travel there faster than a programmer drinks a 64-oz cup of coffee.</p>
+      <img style="max-width: 100%" src="resources/images/galacticmap.png">
+      <p>Don't let your starbases get surrounded by enemy units. A surrounded starbase can be destroyed within minutes!</p>
+    
+    </div>
+
+
+    <div style="display:none" id="creditscreen">
+      <div id="credits">
+        <p id="start">A short time ago on a device in your pants...</p>
+
+        <h1>Sencha's Raiders<sub>version 0.99</sub></h1>
+
+        <div id="titles">
+          <div id="titlecontent">
+
+          <p class="center">EPISODE I<br />USE THE FORCE, READ THE SOURCE</p>
+          
+          <p>It is a period of civil war.</p>
+          
+          <p>
+            Developers and I.T. managers argue over whether to develop native 
+            or web apps for devices.
+          </p>
+          <p>
+            Rebel programmers, striking from a comfy futon in their office, have won their first victory against the evil emperor Status Quo. Before the battle, Rebel spies actually read the Sencha Touch documentation from start to finish, giving them a critical edge over their opponents.
+          </p>
+          <p>And what they learned enabled them to build a x-device compatible space combat simulator that works reasonably well on the latest generation of  Blackberry, Microsoft, and Apple devices, but not so much on Android browsers without GPU-acceleration.
+          </p>
+          <p class="center">Developed By</p>
+          <p>
+            Fig Leaf Software<br />
+            <em>We've Got You Covered!</em><br />
+            1400 16th Street NW<br />
+            Washington, DC 20036<br />
+            http://www.figleaf.com<br />
+          </p>
+
+          <p>
+            Project Lead<br />
+            Steve "The Big Fig" Drucker<br />
+            sdrucker@figleaf.com
+          </p>
+          <p>
+            Combat Gameplay Engineer<br />
+            Andy "The Bear" Baer<br />
+          </p>
+          <p>
+            Lead Artist<br />
+            Tom "Speed Racer" Pizer<br />
+          </p>
+          <p>
+            Additional Artistry<br />
+            Joel "Storm Zombie" Crawford-Smith<br />
+          </p>
+          <p>
+            Moral Support:<br />
+            David "Devildog" Gallerizzo<br />
+          </p>
+
+          <p>
+            Basic Starfield:<br />
+            www.chiptune.com
+          </p>
+
+          <p>
+            Star Wars Credit Crawl:<br />
+            www.gesteves.com
+          </p>
+          <p>
+            This project is available on GitHub.<br />
+            github.com/sdruckerfig/senchas-raiders
+          </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div style="display:none" id="contactus">
+
+      <h1>Need help with your next mobile development project?</h1>
+      <p>Fig Leaf Software's expert team of Sencha Touch, JQuery Mobile, and Appcelerator Titanium developers and instructors stand ready to assist you in building your next great mobile app! Our services range from short-term requirements gathering, code review and best practices consulting all the way through full life-cycle development, post-deployment support, and training.</p>
+
+      <p>Press the Contact Us button above to get started!</p>
+    </div>
+
+</body>
+</html>

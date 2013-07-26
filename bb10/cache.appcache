@@ -1,0 +1,86 @@
+CACHE MANIFEST
+# dd2aab46fceac9519513121e6fb2fe4c301fbbd2
+index.html
+# 1a4df9025cd06e17ee9ff234cc1e3886bb76d138
+resources/sounds/audiosprite.mp3
+# 7ac574155814dc3f901afd9c61e5ce1dca37c789
+resources/images/gold-star.png
+# 4893b8e19bcc08ad459670b40a1dbd4fc9ba29e7
+resources/images/starrybackground.png
+# e29aaedf6152af9e05fe20c1510e887622cb7c78
+resources/images/photons/enemyphoton1.png
+# 722a77f5f3dd145f93f81409abbc4ee8b9c1d404
+resources/images/photons/enemyphoton2.png
+# 6575abfb786d31780c8ab8ebd391ca01c877058b
+resources/images/photons/enemyphoton3.png
+# 2f720e722e809c9416ed679fc6ecf101ae17123c
+resources/images/photons/photon4-24bit.png
+# d86e05a9a6b8e31dcf1369077a8b7847ba772676
+resources/images/enemy1/ship1.png
+# 0dd4b4b32b5a44963797c8e8cdd220499709dad7
+resources/images/enemy1/ship2.png
+# e92c709bfa64b3bff65229ba7159a53469f2bff3
+resources/images/enemy1/ship3.png
+# 0892416c659cd7e0c18896d383064cc46309c79c
+resources/images/board.png
+# c606495ad5b05367a6fb1de9d030f57f641cc4f2
+resources/images/cracked.png
+# bf163677d9bd2ed5f609e94a3fd61e9cdc9ba309
+resources/images/HUD.png
+# b7ba526cebd2615027e61d03e5aa913d08996721
+resources/images/cockpit.png
+# d085649680885f2b71ab148284fa17422952a863
+resources/images/spacestation/Space-Station1.png
+# 5de04f299179237b55a54a9d014900b5678de124
+resources/images/spacestation/Space-Station2.png
+# d2eee2fd12a9c63d1b3f3d15ea0757d23bf0f901
+resources/images/spacestation/Space-Station3.png
+# d6b4c101911392c439ce33284bbb45ffb3e0b21b
+resources/images/spacestation/Space-Station4.png
+# 0dceb1192917d016eb44c4983a5430060d0711d9
+resources/images/spacestation/Space-Station5.png
+# 823fd51638dbddc312ad44b9b3d237358191a87b
+resources/images/spacestation/Space-Station6.png
+# 09c86f2abe4cf08da61dbfb47a6626855894d1a1
+resources/images/spacestation/Space-Station7.png
+# c4b1dc6b1e5d749106c3f6c776ad8d13a7be7fc7
+resources/images/spacestation/Space-Station8.png
+# fc5edbadb35ebfbf1c9286a753f7348e4e36643c
+resources/images/spacestation/Space-Station9.png
+# 4728c41b61fba239dce10757543494a84ebb01f0
+resources/images/spacestation/Space-Station10.png
+# ff04327e1ec13379d1160428f78e4a7adaf7933b
+resources/images/spacestation/Space-Station11.png
+# 3de1f4beac5dd160ce26aa5c5819473bbc996756
+resources/images/spacestation/Space-Station12.png
+# 96b39a86792e5dba019ba8eb29d04cd0e8f55b0a
+resources/images/spacestation/Space-Station13.png
+# c1de113fb506c2477b68c2debf90a8b2abdf8790
+resources/images/spacestation/Space-Station14.png
+# 5e6460982f53cf81b4b33afaba0b18249fa75461
+resources/images/spacestation/Space-Station15.png
+# 73fce02bb718e232601b6901c283d97f0d04f578
+resources/images/spacestation/Space-Station16.png
+# 345986dfe8d478b732fd3cf62f4f61f5617bcc75
+resources/images/spacestation/Space-Station17.png
+# bd9f0def2517fb98b5ec1f92690b587012b5d081
+resources/images/spacestation/Space-Station18.png
+# a669cbe323c7a8b3dc27e3105c86500e70ca6434
+resources/images/spacestation/Space-Station19.png
+# 2133f3fcf91aed0a08fd030c118c3cd35643e2ea
+resources/images/spacestation/Space-Station20.png
+# f196a8f369e7be4fe7c4c10dfea7d5cc537ae665
+resources/images/spacestation/Space-Station21.png
+# 6a3bc3221bb7dcdf05c3739a2a098ef203aa3aa6
+resources/images/spacestation/Space-Station22.png
+# b6ebe2129927ee3246b3f6efdf6b1f415324509b
+resources/images/spacestation/Space-Station23.png
+# d7e909e03bdd74d306421026b29cf5e2c8994369
+resources/images/spacestation/Space-Station24.png
+
+
+FALLBACK:
+
+
+NETWORK:
+*

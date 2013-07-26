@@ -1,0 +1,11 @@
+Sencha's Raiders
+Copyright (c) 2013, Fig Leaf Software
+All rights reserved.
+info@figleaf.com
+
+Open Source License
+------------------------------------------------------------------------------------------
+This version of Sencha's Raiders is licensed under the terms of the Open
+Source GPL 3.0 license.
+
+http://www.gnu.org/licenses/gpl.html

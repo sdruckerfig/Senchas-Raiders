@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<widget xmlns="http://www.w3.org/ns/widgets" 
+    xmlns:rim="http://www.blackberry.com/ns/widgets"
+    version="1.0.0.0" id="HelloWorldApp">   
+   
+    <name>Senchas Raiders</name> 
+    <author>Fig Leaf Software</author>
+    <description>An HTML5-based space combat simulator</description>
+    <icon src="images/icon.png"/>
+    <content src="index.html"/> 
+
+
+	<feature id="blackberry.ui.dialog" required="true" version="1.0.0.0"/>
+    
+    <feature id="blackberry.app">
+    <param name="orientation" value="landscape" />
+    <param name="backgroundColor" value="0xFFFF0000" />
+  	</feature>
+
+  	<rim:splash src="images/1280x768.png"/>
+  	
+  	<access uri="http://webapps.figleaf.com" subdomains="true">
+    <feature id="blackberry.app" required="true" version="1.0.0"/>
+    <feature id="blackberry.invoke" required="true" version="1.0.0"/>
+  	</access>
+	
+	
+</widget>
